@@ -25,6 +25,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap-5.0.0-beta/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-responsive.css">
     <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
@@ -34,7 +36,7 @@
 <body>
     <!-- Header -->
     <section class="top-header">
-        <div class="container">
+        <div class="container main-header">
             <div class="row row-header">
                 <ul class="col-lg-4 logo">
                     <li class="icon-logo">
@@ -302,7 +304,7 @@
         </div>
     </section>
     <!-- Customer -->
-    < class="customer">
+    <section class="customer">
         <div class="container">
             <!-- Main Title -->
             <div class="main-title">
@@ -311,35 +313,90 @@
                     <p>Khách Hàng</p>
                 </h2>
             </div>
-            <!-- Customers Comment -->
-            <div class="row customers-comment">
-                <div class="col-md-3 bg-customer">
-                    <img src="./images/avt-client-01.jpg" alt="">
-                    <span>
-                        <p class="customer-name">JONATHAN</p>
-                        <p class="customer-address">Founder, Great Wall Ltd.</p>
-                    </span>
+            <!--Slider Customers Comment -->
+            <div class="wrapper-slider-customers">
+                <div class="slider-customers">
+                    <div class="row customers-comment">
+                        <div class="col-md-3 bg-customer">
+                            <img src="./images/avt-client-01.jpg" alt="">
+                            <span>
+                                <p class="customer-name">JONATHAN</p>
+                                <p class="customer-address">Founder, Great Wall Ltd.</p>
+                            </span>
+                        </div>
+                        <div class="col-md-6 customer-comment">
+                            <img src="./images/red-frame.png" alt="">
+                            <p>We challenged to complete the project in just over five months. This
+                                was an incredibly fast-track schedule, given that retrofits of this scale,
+                                as we were told by our own advisors. We challenged to complete the
+                                project in just over five months. This was an incredibly fast-track
+                                schedule, given that retrofits of this scale, as we were told by our own
+                                advisors.We challenged to complete the project in just over five
+                                months. This was an incredibly fast-track schedule, given that retrofits
+                                of this scale, as we were told by our own advisors.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 customer-comment">
-                    <img src="./images/red-frame.png" alt="">
-                    <p>We challenged to complete the project in just over five months. This
-                        was an incredibly fast-track schedule, given that retrofits of this scale,
-                        as we were told by our own advisors. We challenged to complete the
-                        project in just over five months. This was an incredibly fast-track
-                        schedule, given that retrofits of this scale, as we were told by our own
-                        advisors.We challenged to complete the project in just over five
-                        months. This was an incredibly fast-track schedule, given that retrofits
-                        of this scale, as we were told by our own advisors.</p>
+                <div class="slider-customers">
+                    <div class="row customers-comment">
+                        <div class="col-md-3 bg-customer">
+                            <img src="./images/avt-client-02.jpg" alt="">
+                            <span>
+                                <p class="customer-name">PINK GIRLY</p>
+                                <p class="customer-address">Singer at Thai Group Co.</p>
+                            </span>
+                        </div>
+                        <div class="col-md-6 customer-comment">
+                            <img src="./images/red-frame.png" alt="">
+                            <p>We challenged to complete the project in just over five months. This
+                                was an incredibly fast-track schedule, given that retrofits of this scale,
+                                as we were told by our own advisors. We challenged to complete the
+                                project in just over five months. This was an incredibly fast-track
+                                schedule, given that retrofits of this scale, as we were told by our own
+                                advisors.We challenged to complete the project in just over five
+                                months. This was an incredibly fast-track schedule, given that retrofits
+                                of this scale, as we were told by our own advisors.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-customers">
+                    <div class="row customers-comment">
+                        <div class="col-md-3 bg-customer">
+                            <img src="./images/avt-client-03.jpg" alt="">
+                            <span>
+                                <p class="customer-name">BLUE SKY</p>
+                                <p class="customer-address">Security at Thai Group</p>
+                            </span>
+                        </div>
+                        <div class="col-md-6 customer-comment">
+                            <img src="./images/red-frame.png" alt="">
+                            <p>We challenged to complete the project in just over five months. This
+                                was an incredibly fast-track schedule, given that retrofits of this scale,
+                                as we were told by our own advisors. We challenged to complete the
+                                project in just over five months. This was an incredibly fast-track
+                                schedule, given that retrofits of this scale, as we were told by our own
+                                advisors.We challenged to complete the project in just over five
+                                months. This was an incredibly fast-track schedule, given that retrofits
+                                of this scale, as we were told by our own advisors.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Brands -->
         <div class="row brands">
-            <img class="col-sm-4 col 6 col-md-2" src="./images/client-bcg.png" alt="">
-            <img class="col-sm-4 col 6 col-md-2" src="./images/client-rob.png" alt="">
-            <img class="col-sm-3 col 4 col-md-2" src="./images/client-ksm.png" alt="">
-            <img class="col-sm-3 col 4 col-md-2" src="./images/client-inc.png" alt="">
-            <img class="col-sm-3 col 4 col-md-2" src="./images/client-incite.png" alt="">
+            <img class="col 6 col-md-2" src="./images/client-bcg.png" alt="">
+            <img class="col 6 col-md-2" src="./images/client-rob.png" alt="">
+            <img class="col 4 col-md-2" src="./images/client-ksm.png" alt="">
+            <img class="col 4 col-md-2" src="./images/client-inc.png" alt="">
+            <img class="col 4 col-md-2" src="./images/client-incite.png" alt="">
+        </div>
+        <div class="row brands-mobile">
+            <img class="col 6 col-md-2" src="./images/client-bcg.png" alt="">
+            <img class="col 6 col-md-2" src="./images/client-rob.png" alt="">
+            <img class="col 4 col-md-2" src="./images/client-ksm.png" alt="">
+            <img class="col 4 col-md-2" src="./images/client-inc.png" alt="">
+            <img class="col 4 col-md-2" src="./images/client-incite.png" alt="">
         </div>
     </section>
     <!-- Contact -->
@@ -412,6 +469,7 @@
     </section>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./bootstrap-5.0.0-beta/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="script.js"></script>
 </body>
 
