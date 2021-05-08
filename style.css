@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 h1,
 h2,
 h3,
@@ -17,6 +18,7 @@ li {
     padding: 0;
     margin: 0;
 }
+
 img {
     max-width: 100%;
 }
@@ -25,9 +27,11 @@ img {
 .top-header {
     background: #F8F8F8;
 }
+
 .main-header {
     position: relative;
 }
+
 .menu-contact {
     display: flex;
     justify-content: space-around;
@@ -42,9 +46,11 @@ img {
     margin-right: 14px;
     cursor: pointer;
 }
-.contact-icon:hover {
-    
+
+.contact-icon img:hover {
+    flex-wrap: wrap-reverse;
 }
+
 .contact-name p {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
@@ -92,6 +98,7 @@ img {
     letter-spacing: 0.05em;
     color: #2C4985;
 }
+
 .menu-banner-mobile {
     display: none;
 }
@@ -104,6 +111,7 @@ img {
     right: 0;
     display: none;
 }
+
 .menu-hamburger {
     position: absolute;
     display: inline-block;
@@ -142,6 +150,7 @@ img {
     top: 0;
     transform: rotate(135deg);
 }
+
 /* Banner */
 .banner {
     position: relative;
@@ -163,6 +172,7 @@ img {
 }
 
 .menu-banner li a {
+    position: relative;
     text-decoration: none;
     font-family: Mulish, sans-serif;
     font-size: 14px;
@@ -481,13 +491,11 @@ img {
 .row-main-news {
     padding: 38px 0 48px 0;
 }
+
 .col-news {
     padding-top: 5px;
 }
-.col-news:hover {
-    box-shadow: 2px 2px 7px;
-    transition: .9s;
-}
+
 .col-news:not(:last-child) {
     padding-right: 18px;
 }
@@ -532,7 +540,7 @@ img {
 
 .date-news p {
     padding-left: 6px;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -564,6 +572,7 @@ img {
     background-size: cover;
     max-width: 100%;
 }
+
 .customers-comment {
     padding: 38px 0 149px 0;
     margin: 0px;
@@ -607,31 +616,38 @@ img {
 .customer-comment p {
     padding-top: 25px;
     padding-left: 141px;
-    font-family: Open Sans,sans-serif;
+    font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     color: #505050;
 }
-.slick-prev::before, .slick-next::before {
+
+.slick-prev::before,
+.slick-next::before {
     font-size: 20px;
     color: cornflowerblue;
 }
+
 .slick-dots {
     bottom: 3vw;
 }
+
 .slick-dots li button:before {
     font-size: 10px;
     color: red;
 }
+
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: red;
 }
+
 .brands {
     width: 100%;
     justify-content: center;
     padding: 0 0 47px;
 }
+
 .brands-mobile {
     display: none;
     width: 100%;
@@ -668,12 +684,14 @@ img {
     padding-top: 40px;
     cursor: pointer;
 }
+
 .footer-contact-item-1 h2:hover {
     color: red;
     transition: .9;
     font-size: 300%;
     transition: .9s;
 }
+
 .footer-contact-item-2 {
     text-align: center;
     padding-right: 60px;
@@ -711,6 +729,7 @@ img {
     color: #265BC5;
     cursor: pointer;
 }
+
 .main-footer h4:hover {
     color: red;
     transition: .9s;
@@ -765,10 +784,7 @@ img {
     text-decoration: none;
     color: #505050;
 }
-.col-footer-2 ul li a:hover {
-    color: lightblue;
-    transition: 0.9s;
-}
+
 .col-footer-3 {
     padding-top: 125px;
 }
@@ -808,4 +824,80 @@ img {
 
 .footer-links a:not(:last-child) {
     padding-right: 65px;
+}
+
+.footer-links a img:hover {
+    left: -50%;
+    transition: .3s;
+}
+
+/* Hover */
+.contact-icon {
+    transition: .6s;
+}
+.contact-icon:hover {
+    padding: 5px;
+    transition: .6s;
+
+}
+.col-news {
+    transition: .6s;
+}
+.col-news:hover {
+    zoom: 110%;
+    transition: .6s;
+    box-shadow: 2px 2px 7px;
+    transition: .0s;
+}
+
+.slick-dots li button:hover {
+    zoom: 150%;
+}
+.slick-prev, .slick-next {
+    transition: .3s;
+}
+.slick-prev:hover, .slick-next:hover {
+    zoom: 150%;
+}
+.text-see-all {
+    transition: .3s;
+}
+.text-see-all:hover {
+    font-size: 110%;
+    transition: .3s;
+}
+.fab {
+    transition: .6s;
+}
+.fab:hover {
+    font-size: 200%;
+    transition: .6s;
+}
+.service:hover {
+    box-shadow: 4px 4px 8px 4px;
+}
+.btn-see-more-3:hover {
+
+}
+.btn-slip-down {
+    transition: .3s;
+}
+.btn-slip-down:hover {
+    zoom: 106%;
+    transition: .3s;
+}
+.menu-banner li a {
+    padding-bottom: 1.5vw;
+    transition: .5s;
+}
+.menu-banner li a:hover {
+    padding: 2px 2px 1vw 2px;
+    color: palevioletred;
+    border-bottom: 2px palevioletred solid;
+    transition: .5s;
+
+}
+.col-footer-2 ul li a:hover {
+    color: lightblue;
+    transition: 0.6s;
 }
