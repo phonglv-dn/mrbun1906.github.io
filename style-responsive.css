@@ -109,8 +109,8 @@
     }
 
     .title-banner p {
-        font-size: 10.5px;
-        line-height: 15px;
+        font-size: 12.5px;
+        line-height: 17px;
         margin-top: 10px;
         margin-bottom: 25px;
     }
@@ -426,15 +426,20 @@
         color: darkblue;
     }
 
+    .title-banner {
+        top: 12vw;
+        left: 18vw;
+    }
+
     .title-banner h1 {
         font-size: 24px;
         line-height: 35px;
     }
 
     .title-banner p {
-        font-size: 10px;
+        font-size: 12px;
         font-style: normal;
-        font-weight: lighter;
+        font-weight: normal;
         line-height: 15px;
         margin-top: 5px;
         margin-bottom: 20px;
@@ -730,12 +735,13 @@
         width: 15px;
         height: 15px;
     }
+
     .contact-icon:hover {
         border-radius: unset;
         padding: 0 35px;
         box-shadow: unset;
         transition: 0;
-    
+
     }
 }
 
@@ -774,11 +780,11 @@
     .banner {}
 
     .title-banner {
-        width: 100%;
+        width: 90%;
         top: 0;
         bottom: auto;
         left: 0;
-        padding: 10vw;
+        padding: 8vw 0 0 13vw;
     }
 
     .title-banner h1 {
@@ -788,11 +794,11 @@
     }
 
     .title-banner p {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: normal;
-        line-height: 2vw;
+        line-height: 3vw;
         margin-top: 1.5vw;
-        margin-bottom: 3vw;
+        margin-bottom: 2vw;
         width: 90%;
     }
 
@@ -920,16 +926,17 @@
 
     /* Banner */
     .title-banner h1 {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .title-banner p {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .text-see-all img {
         right: -18%;
-        width: 22.5%;
+        width: 21%;
+        ;
     }
 
     /* About Us */
@@ -1021,6 +1028,34 @@
 /* Max Width : 539px */
 @media (max-width:539px) {
 
+    /* Banner */
+    .title-banner h1 {
+        font-size: 16px;
+    }
+
+    .title-banner p {
+        font-size: 9px;
+    }
+
+    .text-see-all {
+        padding: 6px 40px;
+    }
+
+    .text-see-all img {
+        right: -17%;
+        width: 19.5%;
+    }
+
+    .btn-slip-down img {
+        width: 35px;
+        bottom: 4px;
+    }
+
+    .btn-slip-down a img {
+        bottom: 4px;
+        width: 10px;
+    }
+
     /* Customers */
     .bg-customer span {
         left: 23vw;
@@ -1069,6 +1104,7 @@
         margin-top: 1vw;
         margin-bottom: 0vw;
     }
+
     .btn-see-more-1 {
         margin-top: 3vw;
     }
@@ -1076,6 +1112,11 @@
     .text-see-all {
         font-size: 10px;
         padding: 5px 25px;
+    }
+
+    .text-see-all img {
+        right: -17%;
+        width: 22.6%;
     }
 
     .btn-slip-down img {
@@ -1207,15 +1248,20 @@
 
     /* Banner */
     .title-banner h1 {
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 11px;
+        line-height: 14px;
     }
 
     .title-banner p {
-        font-size: 5px;
+        font-size: 6px;
         line-height: 3vw;
-        margin-top: 2vw;
+        margin-top: 1vw;
         margin-bottom: 1vw;
+        width: 100%;
+    }
+
+    .btn-see-more-1 {
+        margin-top: 0;
     }
 
     .btn-see-more-2 {
@@ -1224,13 +1270,13 @@
     }
 
     .text-see-all {
-        font-size: 6px;
-        padding: 5px 25px;
+        font-size: 5px;
+        padding: 6px 25px;
     }
 
     .text-see-all img {
-        padding: 1px;
-        width: 23.5%;
+        padding: 2px;
+        width: 25%;
         right: -15%;
     }
 
@@ -1348,6 +1394,9 @@
     /* Customers */
     .customer-comment p {
         padding-left: 30px;
+        font-size: 10px;
+        line-height: 22px;
+
     }
 
     /* Contact */
@@ -1365,15 +1414,20 @@
     }
 
     .main-footer p {
-        font-size: 9px;
+        font-size: 10px;
     }
-
+    .col-footer-2 ul li a {
+        font-size: 10px;
+    }
     .submit-area input {
-        width: 215px;
+        width: 190px;
+        height: 30px;
     }
-
+    .col-footer-3 a img {
+        padding: 3px;
+    }
     .maps iframe {
-        width: 250px;
+        width: 215px;
     }
 
 }

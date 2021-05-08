@@ -25,7 +25,7 @@ img {
 
 /* Header */
 .top-header {
-    background: #F8F8F8;
+    background: #f8f8f8;
 }
 
 .main-header {
@@ -56,7 +56,7 @@ img {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #1A3761;
+    color: #1a3761;
 }
 
 .contact-name span {
@@ -64,7 +64,7 @@ img {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    color: #EE1F23;
+    color: #ee1f23;
 }
 
 .icon-logo img {
@@ -77,10 +77,10 @@ img {
 }
 
 .logo::before {
-    content: '';
+    content: "";
     width: 500%;
     height: 60px;
-    background: #F8F8F8;
+    background: #f8f8f8;
     position: absolute;
     margin-left: -430%;
     top: auto;
@@ -96,7 +96,7 @@ img {
     font-size: 13px;
     line-height: 18px;
     letter-spacing: 0.05em;
-    color: #2C4985;
+    color: #2c4985;
 }
 
 .menu-banner-mobile {
@@ -177,7 +177,7 @@ img {
     font-family: Mulish, sans-serif;
     font-size: 14px;
     line-height: 16px;
-    color: #F8F8F8;
+    color: #f8f8f8;
     font-weight: 600;
 }
 
@@ -209,7 +209,7 @@ img {
     font-weight: bold;
     line-height: 64px;
     width: 47vw;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .title-banner p {
@@ -221,7 +221,7 @@ img {
     width: 45vw;
     margin-top: 24px;
     margin-bottom: 55px;
-    color: #F8F8F8;
+    color: #f8f8f8;
 }
 
 .icon-banner {
@@ -237,7 +237,7 @@ img {
 }
 
 #fa-icon {
-    color: #F8F8F8;
+    color: #f8f8f8;
 }
 
 .text-see-all {
@@ -245,11 +245,11 @@ img {
     font-family: Mulish, sans-serif;
     font-size: 16px;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 14px 51px;
-    background: #EE1F23;
+    background: #ee1f23;
     position: relative;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .text-see-all img {
@@ -301,7 +301,7 @@ img {
 
 .pic-about-us img {
     object-fit: contain;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .pic-about-us span {
@@ -312,7 +312,7 @@ img {
     left: auto;
     bottom: -2vw;
     top: auto;
-    background: #265BC5;
+    background: #265bc5;
 }
 
 .pic-about-us span img {
@@ -330,14 +330,13 @@ img {
     font-family: Mulish, sans-serif;
     font-size: 20px;
     line-height: 23px;
-    color: #F8F8F8;
+    color: #f8f8f8;
     text-align: center;
 }
 
 .about-us-desciption {
     position: relative;
     text-align: justify;
-
 }
 
 .about-us-desciption p {
@@ -366,7 +365,7 @@ img {
     line-height: 16px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color: #EE1F23;
+    color: #ee1f23;
 }
 
 .about-us-desciption h2 span {
@@ -377,7 +376,7 @@ img {
     text-align: left;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color: #EE1F23;
+    color: #ee1f23;
     padding-bottom: 0px;
 }
 
@@ -404,15 +403,15 @@ img {
 
 .service {
     padding-left: 52px;
-    background: #F8F8F8;
+    background: #f8f8f8;
 }
 
 .row-services-1 {
-    border-bottom: 1px solid #265BC5;
+    border-bottom: 1px solid #265bc5;
 }
 
 .row-services-1 .service:nth-child(2) {
-    background: #265BC5;
+    background: #265bc5;
 }
 
 .icon-service {
@@ -444,7 +443,7 @@ img {
     font-family: Mulish, sans-serif;
     font-size: 18px;
     line-height: 21px;
-    color: #265BC5;
+    color: #265bc5;
 }
 
 .detail-service-1 p span {
@@ -456,7 +455,7 @@ img {
 }
 
 .row-services-1 .detail-service p span:nth-child(2) {
-    color: #F8F8F8;
+    color: #f8f8f8;
 }
 
 /* News */
@@ -469,13 +468,13 @@ img {
 }
 
 .main-title h2 span {
-    font-family: 'Mulish', sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color: #EE1F23;
+    color: #ee1f23;
 }
 
 .main-title h2 p {
@@ -507,7 +506,7 @@ img {
 .news-contents {
     padding-bottom: 40px;
     padding-left: 27px;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .news-contents h3 {
@@ -586,7 +585,7 @@ img {
 .bg-customer span {
     position: absolute;
     padding: 1vw;
-    background: #265BC5;
+    background: #265bc5;
     left: auto;
     right: 2vw;
     top: auto;
@@ -597,8 +596,7 @@ img {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     text-align: center;
-    color: #F8F8F8;
-
+    color: #f8f8f8;
 }
 
 .customer-comment {
@@ -638,7 +636,7 @@ img {
 }
 
 .slick-dots li.slick-active button:before {
-    opacity: .75;
+    opacity: 0.75;
     color: red;
 }
 
@@ -680,16 +678,16 @@ img {
     line-height: 49px;
     text-align: center;
     text-transform: uppercase;
-    color: #F8F8F8;
+    color: #f8f8f8;
     padding-top: 40px;
     cursor: pointer;
 }
 
 .footer-contact-item-1 h2:hover {
     color: red;
-    transition: .9;
+    transition: 0.9;
     font-size: 300%;
-    transition: .9s;
+    transition: 0.9s;
 }
 
 .footer-contact-item-2 {
@@ -705,14 +703,13 @@ img {
     font-size: 14px;
     line-height: 19px;
     text-align: center;
-    color: #F8F8F8;
+    color: #f8f8f8;
     margin-top: 20px;
 }
 
 /* Main Footer */
 .top-footer {
-    border-bottom: 1px solid #D7D7D7;
-    ;
+    border-bottom: 1px solid #d7d7d7;
 }
 
 .main-footer {
@@ -726,15 +723,15 @@ img {
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
-    color: #265BC5;
+    color: #265bc5;
     cursor: pointer;
+    transition: .6s;
 }
 
 .main-footer h4:hover {
     color: red;
-    transition: .9s;
+    transition: 0.9s;
 }
-
 
 .main-footer h5 {
     margin-top: 40px;
@@ -783,6 +780,7 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     color: #505050;
+    transition: .3s;
 }
 
 .col-footer-3 {
@@ -795,8 +793,8 @@ img {
 }
 
 .submit-area input {
-    background: #ECEFF4;
-    border: 1px solid #CAD3DF;
+    background: #eceff4;
+    border: 1px solid #cad3df;
     box-sizing: border-box;
     align-items: center;
     width: 270px;
@@ -828,76 +826,123 @@ img {
 
 .footer-links a img:hover {
     left: -50%;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 /* Hover */
 .contact-icon {
-    transition: .6s;
+    transition: 0.6s;
 }
+
 .contact-icon:hover {
     padding: 5px;
-    transition: .6s;
+    transition: 0.6s;
+}
 
-}
 .col-news {
-    transition: .6s;
+    transition: 0.6s;
 }
+
 .col-news:hover {
     zoom: 110%;
-    transition: .6s;
+    transition: 0.6s;
     box-shadow: 2px 2px 7px;
-    transition: .0s;
+    transition: 0s;
 }
 
 .slick-dots li button:hover {
     zoom: 150%;
 }
-.slick-prev, .slick-next {
-    transition: .3s;
+
+.slick-prev,
+.slick-next {
+    transition: 0.3s;
 }
-.slick-prev:hover, .slick-next:hover {
+
+.slick-prev:hover,
+.slick-next:hover {
     zoom: 150%;
 }
+
 .text-see-all {
-    transition: .3s;
+    transition: 0.3s;
 }
+
 .text-see-all:hover {
     font-size: 110%;
-    transition: .3s;
+    transition: 0.3s;
 }
+
 .fab {
-    transition: .6s;
+    transition: 0.6s;
 }
+
 .fab:hover {
     font-size: 200%;
-    transition: .6s;
+    transition: 0.6s;
 }
+
 .service:hover {
     box-shadow: 4px 4px 8px 4px;
 }
-.btn-see-more-3:hover {
 
-}
+.btn-see-more-3:hover {}
+
 .btn-slip-down {
-    transition: .3s;
+    transition: 0.3s;
 }
+
 .btn-slip-down:hover {
     zoom: 106%;
-    transition: .3s;
+    transition: 0.3s;
 }
+
 .menu-banner li a {
     padding-bottom: 1.5vw;
-    transition: .5s;
+    transition: 0.5s;
 }
+
 .menu-banner li a:hover {
     padding: 2px 2px 1vw 2px;
     color: palevioletred;
     border-bottom: 2px palevioletred solid;
-    transition: .5s;
-
+    transition: 0.5s;
 }
+
 .col-footer-2 ul li a:hover {
     color: lightblue;
     transition: 0.6s;
+}
+.footer-contact-item-2 a:hover {
+    zoom: 110%;
+}
+.icon-link:hover {
+    zoom: 150%;
+}
+#toTopBtn {
+    position: fixed;
+    display: inline;
+    bottom: 5%;
+    right: 5%;
+    z-index: 9999;
+    padding: 21px;
+    color: #fff;
+    background-color: #265BC5;
+    border: 2px solid #ee1f2200;
+    border-radius: 100%;
+    text-align: center;
+    transition: .6s;
+}
+#toTopBtn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+#toTopBtn:hover {
+    background: red;
+    transition: .6s;
 }
