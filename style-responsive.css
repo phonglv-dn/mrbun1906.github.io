@@ -1164,7 +1164,7 @@
     }
 
     /* Customers */
-    .brands-mobile .slick-list .slick-track img {
+    .brands-mobile>.slick-list>.slick-track>img {
         padding: 0 6vw;
         border-top: 1px solid;
         border-bottom: 1px solid;
