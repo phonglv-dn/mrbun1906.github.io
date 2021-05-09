@@ -638,7 +638,6 @@
     .brands {
         padding: 0 0 47px;
     }
-
     .slick-prev,
     .slick-next {
         top: 40%;
@@ -1168,6 +1167,8 @@
     /* Customers */
     .slick-track img {
         padding: 0 6vw;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
     }
 
     .customer-comment p {
@@ -1396,9 +1397,7 @@
         padding-left: 30px;
         font-size: 10px;
         line-height: 22px;
-
     }
-
     /* Contact */
     .footer-contact-item-2 p {
         font-size: 8px;
