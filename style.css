@@ -868,14 +868,14 @@ img {
     transition: .3s;
 }
 
-/* .text-see-all {
+.text-see-all {
     transition: 0.3s;
 }
 
 .text-see-all:hover {
     font-size: 110%;
     transition: 0.3s;
-} */
+}
 
 .fab {
     transition: 0.6s;
