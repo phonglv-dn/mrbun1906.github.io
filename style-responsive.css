@@ -124,6 +124,7 @@
     .text-see-all img {
         padding: 1px;
         right: -20%;
+        transform: translateY(-1%);
     }
 
     .btn-slip-down img {
@@ -454,6 +455,7 @@
         padding: 5px;
         width: 21%;
         right: -15%;
+        transform: translateY(-1%);
     }
 
     .icon-banner ul li {
@@ -931,11 +933,14 @@
     .title-banner p {
         font-size: 10px;
     }
-
+    .text-see-all {
+        font-size: 14px;
+        padding: 8px 45px;
+    }
     .text-see-all img {
         right: -18%;
         width: 21%;
-        ;
+        transform: translateY(0%);
     }
 
     /* About Us */
@@ -1041,7 +1046,8 @@
 
     .text-see-all img {
         right: -17%;
-        width: 19.5%;
+        width: 19.4%;
+        transform: translateY(0%);
     }
 
     .btn-slip-down img {
@@ -1109,12 +1115,14 @@
 
     .text-see-all {
         font-size: 10px;
-        padding: 5px 25px;
+        padding: 5.6px 25px;
     }
 
     .text-see-all img {
+        padding: 5px;
         right: -17%;
-        width: 23%;
+        width: 24%;
+        /* transform: translateY(0%); */
     }
 
     .btn-slip-down img {
@@ -1201,6 +1209,16 @@
 
 /* Max Width : 417px */
 @media (max-width:417px) {
+    /* Banner */
+    .text-see-all {
+        font-size: 11px;
+        padding: 5.8px 25px;
+    }
+    .text-see-all img {
+        right: -17%;
+        width: 24%;
+        transform: translateY(0%);
+    }
     .contact-icon {
         padding: 0px 15px 0 5px;
     }
@@ -1270,14 +1288,17 @@
     }
 
     .text-see-all {
-        font-size: 5px;
+        font-size: 8.1px;
         padding: 6px 25px;
+        /* border: none; */
     }
 
     .text-see-all img {
         padding: 2px;
         width: 25%;
-        right: -15%;
+        height: 22.4px;
+        right: -20%;
+        transform: translateY(0%);
     }
 
     /* About Us */
