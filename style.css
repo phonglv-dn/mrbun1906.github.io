@@ -646,7 +646,13 @@ img {
     padding: 0 0 47px;
     transition: .5s;
 }
-
+.brands a img {
+    transition: .3s;
+}
+.brands a img:hover {
+    transform: translateY(-20px);
+    transition: .3s;
+}
 .brands-mobile {
     display: none;
     width: 100%;
@@ -682,6 +688,7 @@ img {
     color: #f8f8f8;
     padding-top: 40px;
     cursor: pointer;
+    transition: .9s;
 }
 
 .footer-contact-item-1 h2:hover {
@@ -824,12 +831,13 @@ img {
 .footer-links a:not(:last-child) {
     padding-right: 65px;
 }
-
-.footer-links a img:hover {
-    left: -50%;
-    transition: 0.3s;
+.footer-links a img {
+    transition: .6s;
 }
-
+.footer-links a img:hover {
+    transform: scale(1.3);
+    transition: 0.6s;
+}
 /* Hover */
 .contact-icon {
     transition: 0.6s;
@@ -845,10 +853,10 @@ img {
 }
 
 .col-news:hover {
-    zoom: 110%;
+    transform: scaleY(1.1);
     transition: 0.6s;
     box-shadow: 2px 2px 7px;
-    transition: 0s;
+    transition: .2s;
 }
 
 .slick-dots li button:hover {
@@ -897,7 +905,7 @@ img {
 }
 
 .btn-slip-down:hover {
-    zoom: 106%;
+    transform: scaleY(1.1);
     transition: 0.3s;
 }
 
@@ -926,13 +934,19 @@ img {
     color: lightblue;
     transition: 0.6s;
 }
-
-.footer-contact-item-2 a:hover {
-    zoom: 110%;
+.footer-contact-item-2 a img{
+    transition: .3s;
 }
-
+.footer-contact-item-2 img:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+.icon-link {
+    transition: .3s;
+}
 .icon-link:hover {
-    zoom: 150%;
+        transform: scale(1.3);
+        transition: .3s;
 }
 
 #toTopBtn {
