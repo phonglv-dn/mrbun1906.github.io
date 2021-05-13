@@ -59,12 +59,13 @@ img {
     color: #1a3761;
 }
 
-.contact-name span {
+.contact-name span a {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
     color: #ee1f23;
+    text-decoration: none;
 }
 
 .icon-logo img {
