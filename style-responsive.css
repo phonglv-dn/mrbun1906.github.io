@@ -686,6 +686,7 @@
         flex: none;
         width: 100%;
         margin: 0;
+        text-align: center;
         padding-top: 21px;
     }
 
@@ -1194,8 +1195,10 @@
 
     /* Footer */
     .col-footer-2 ul {
-        display: block;
+        display: flex;
         margin-left: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .col-footer-2 ul li {
