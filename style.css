@@ -73,7 +73,7 @@ img {
 
 .logo {
     position: relative;
-    transform: translateY(45px);
+    transform: translateY(15px);
 }
 
 .logo::before {
@@ -239,7 +239,13 @@ img {
 #fa-icon {
     color: #f8f8f8;
 }
-
+.btn-see-more-1 {
+    transition: .3s;
+}
+.btn-see-more-1:hover {
+    transform: translateX(10px);
+    transition: 0.3s;
+}
 .text-see-all {
     text-decoration: none;
     font-family: Mulish, sans-serif;
@@ -353,8 +359,12 @@ img {
     top: auto;
     bottom: 10px;
     left: 70px;
+    transition: .3s;
 }
-
+.btn-see-more-2:hover {
+    transform: translateX(10px);
+    transition: .3s;
+}
 .btn-see-more-2 a:last-child {
     /* background: #f2f2f2; */
 }
@@ -500,6 +510,7 @@ img {
 }
 
 .bg-news {
+    cursor: pointer;
     margin-bottom: 24px;
 }
 
@@ -510,6 +521,7 @@ img {
 }
 
 .news-contents h3 {
+    cursor: pointer;
     margin-bottom: 14px;
     font-family: Open Sans, sans-serif;
     font-style: normal;
@@ -518,7 +530,10 @@ img {
     line-height: 30px;
     color: #333333;
 }
+.news-contents h3:hover {
+    content: "";
 
+}
 .news-contents p {
     font-family: Montserrat, sans-serif;
     font-style: normal;
@@ -549,6 +564,7 @@ img {
 .btn-see-more-3 {
     padding-left: 119px;
     transform: translateY(25px);
+    transition: .3s;
 }
 
 .link-3 {
@@ -563,8 +579,12 @@ img {
 
 .btn-see-more-4 {
     text-align: center;
+    transition: .3s;
 }
-
+.btn-see-more-4:hover {
+    transform: translateX(10px);
+    transition: .3s;
+}
 /* Customer */
 .customer {
     background: url(./images/bg-clients.jpg);
@@ -622,22 +642,26 @@ img {
 
 .slick-prev::before,
 .slick-next::before {
-    font-size: 20px;
-    color: cornflowerblue;
+    display: none;
 }
 
 .slick-dots {
     bottom: 3vw;
+    transition: .3s;
 }
 
 .slick-dots li button:before {
     font-size: 10px;
     color: red;
+    transition: .3s;
 }
 
 .slick-dots li.slick-active button:before {
     opacity: 0.75;
     color: red;
+    border: 1px solid grey;
+    border-radius: 50px;
+    transition: .3s;
 }
 
 .brands {
@@ -645,6 +669,9 @@ img {
     justify-content: center;
     padding: 0 0 47px;
     transition: .5s;
+}
+.brands a {
+    padding: 0;
 }
 .brands a img {
     transition: .3s;
@@ -832,20 +859,20 @@ img {
     padding-right: 65px;
 }
 .footer-links a img {
-    transition: .6s;
+    transition: .3s;
 }
 .footer-links a img:hover {
     transform: scale(1.3);
-    transition: 0.6s;
+    transition: 0.3s;
 }
 /* Hover */
 .contact-icon {
-    transition: 0.6s;
+    transition: 0.3s;
 }
 
 .contact-icon:hover {
     padding: 5px;
-    transition: 0.6s;
+    transition: 0.3s;
 }
 
 .col-news {
@@ -853,36 +880,26 @@ img {
 }
 
 .col-news:hover {
-    transform: scaleY(1.1);
+    transform: scale(1.1);
     transition: 0.6s;
-    box-shadow: 2px 2px 7px;
-    transition: .2s;
 }
 
 .slick-dots li button:hover {
-    zoom: 150%;
-}
-
-.slick-prev,
-.slick-next {
-    transition: 0.3s;
-}
-
-.slick-prev:hover,
-.slick-next:hover {
-    padding: 5px;
-    width: 40px;
-    height: 40px;
+    transform: scale(1.2);
     transition: .3s;
 }
 
+.slick-prev,
+.slick-next,
+.slick-arrow {
+    display: none;
+}
 .text-see-all {
     transition: 0.3s;
 }
 
 .text-see-all:hover {
-    font-size: 110%;
-    transition: 0.3s;
+    color:#ffffff;
 }
 
 .fab {
@@ -894,31 +911,25 @@ img {
     transition: 0.6s;
 }
 
-.service:hover {
-    box-shadow: 4px 4px 8px 4px;
-}
-
-.btn-see-more-3:hover {}
-
 .btn-slip-down {
     transition: 0.3s;
 }
 
 .btn-slip-down:hover {
-    transform: scaleY(1.1);
+    transform: translateY(-5px);
     transition: 0.3s;
 }
 
 .menu-banner li a {
     padding-bottom: 1.5vw;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .menu-banner li a:hover {
     padding: 2px 2px 1vw 2px;
-    color: palevioletred;
-    border-bottom: 2px palevioletred solid;
-    transition: 0.5s;
+    color: #C1F8FF;
+    border-bottom: 2px #C1F8FF solid;
+    transition: 0.3s;
 }
 
 .service {
