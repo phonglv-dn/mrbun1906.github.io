@@ -513,12 +513,7 @@
     .logo {
         position: relative;
         transform: unset;
-        padding: 5vw 0 0;
         width: 100%;
-    }
-
-    .logo li {
-        text-align: center;
     }
 
     .icon-logo img {
@@ -536,7 +531,6 @@
     .menu-contact {
         justify-content: space-around;
         position: absolute;
-        top: 0;
         left: 0;
         padding: 0;
         width: 100%;
