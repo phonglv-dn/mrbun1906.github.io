@@ -28,30 +28,6 @@ $('.wrapper-slider-customers').slick({
   fade: true,
   cssEase: 'linear'
 });
-$('.brands-mobile').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  responsive: [{
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-});
 $(".footer-contact-item-1").click(function () {
   $(".footer-contact-item-1").toggleClass("active");
   $(".footer-contact-item-2").slideToggle('slow');
