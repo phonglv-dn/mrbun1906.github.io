@@ -37,7 +37,7 @@
         bottom: 10px;
     }
 
-    .btn-slip-down a img {
+    .btn-slip-down i img {
         bottom: 15px;
         width: 15px;
         transform: translate(132%, -15%);
@@ -134,7 +134,7 @@
         bottom: 5px;
     }
 
-    .btn-slip-down a img {
+    .btn-slip-down i img {
         bottom: 8px;
         width: 12px;
         transform: translate(135%, -15%);
@@ -647,7 +647,7 @@
         bottom: 5px;
     }
 
-    .btn-slip-down a img {
+    .btn-slip-down i img {
         bottom: 5px;
         width: 11px;
         transform: translate(125%, -65%);
@@ -1103,7 +1103,7 @@
         bottom: 4px;
     }
 
-    .btn-slip-down a img {
+    .btn-slip-down i img {
         bottom: 4px;
         width: 10px;
     }
@@ -1149,7 +1149,7 @@
         bottom: 3px;
     }
 
-    .btn-slip-down a img {
+    .btn-slip-down i img {
         bottom: 4px;
         width: 7px;
         transform: translate(130%, -50%);

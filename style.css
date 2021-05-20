@@ -277,8 +277,9 @@ img {
     z-index: 5;
 }
 
-.btn-slip-down a img {
+.btn-slip-down i img {
     position: absolute;
+    cursor: pointer;
     bottom: 15px;
     top: auto;
     left: 50%;
